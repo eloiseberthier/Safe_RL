@@ -88,7 +88,7 @@ eta_mubar(pi*) - eta_mubar(pi) <= eps/(1-gamma) || d_pi*,mubar / d_pi,mu ||_inf
 
 ## Discussion
 
-An algorithm that finds an "approximately" optimal solution in polynomial time in eps, but not in the size of the state space.
+An algorithm that finds an "approximately" optimal solution in polynomial time in eps, but not in the size of the state space (!).
 
 (a) Finding a greedy policy chooser is a regression problem.
 

@@ -10,11 +10,19 @@ The goal of the project is to review the model, the theoretical solution/guarant
 
 [1] Garcıa, Javier, and Fernando Fernández. "A comprehensive survey on safe reinforcement learning." Journal of Machine Learning Research 16.1 (2015): 1437-1480.
 
+--> Broad survey, a bit larger than what we want to study here.
+
 [2] Sham Kakade, John Langford: Approximately Optimal Approximate Reinforcement Learning. ICML 2002
+
+--> First (implicit) reference to safety in 2002. Defines CPI approaches, can't be used in practice. Focus on policy gradient.
 
 [3] Matteo Pirotta, Marcello Restelli, Alessio Pecorino, Daniele Calandriello: Safe Policy Iteration. ICML (3) 2013
 
+--> In 2013, extension of [2] with SPI algos instead of CPI. Brings both theoretical and experimental results. Focus on policy iteration.
+
 [4] Philip S. Thomas, Georgios Theocharous, Mohammad Ghavamzadeh: High Confidence Policy Improvement. ICML 2015
+
+--> In the wake of [2] and [3]. Formalize the concept of safe RL.
 
 [5] Philip S. Thomas, Georgios Theocharous, Mohammad Ghavamzadeh: High-Confidence Off-Policy Evaluation. AAAI 2015
 
