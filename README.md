@@ -29,3 +29,6 @@ The goal of the project is to review the model, the theoretical solution/guarant
 [6] Matteo Pirotta, Marcello Restelli, Luca Bascetta: Adaptive Step-Size for Policy Gradient Methods. NIPS 2013
 
 [7] Mohammad Ghavamzadeh, Marek Petrik, Yinlam Chow: Safe Policy Improvement by Minimizing Robust Baseline Regret. NIPS 2016
+
+
+/!\ Check this: https://papers.nips.cc/paper/8032-a-lyapunov-based-approach-to-safe-reinforcement-learning.pdf
