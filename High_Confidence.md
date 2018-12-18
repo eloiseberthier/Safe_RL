@@ -75,4 +75,18 @@ In this paper: batch and incremental policy improvement algorithms that are safe
 
 ## Safe Policy Improvement (batch)
 
-TO BE CONTINUED...
+possible problem: multiple comparisons problem is when we use the same data to search the space of policies and to perform safety tests. So we set aside data only for the safety test: split Dtrain / Dtest (5/1).
+
+Algorithm: get candidate policy, test it, if the performance is above rho- return it, else return no safe policy found.
+
+algorithm fo get candidate policy: maximize the performance among policies predicted to pass the safety test. If none found, returns the policy with the highest lower bound. But tendency to overfit.
+
+another algo: regularization parameter to penalize distance to the initial policy, set with kfold cross validation. Change the proba of an action no more than alpha towards being deterministic.
+
+## Safe Policy Improvement (incremental)
+
+Maintain a list C of policies deemed safe. Always use the policy in C expected to perform best. Generate beta trajectories for the current policy, run policy improvement, append new policy.
+
+## Empirical tests on real problems
+
+see the article.
