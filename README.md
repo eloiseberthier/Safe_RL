@@ -26,7 +26,11 @@ The goal of the project is to review the model, the theoretical solution/guarant
 
 [5] Philip S. Thomas, Georgios Theocharous, Mohammad Ghavamzadeh: High-Confidence Off-Policy Evaluation. AAAI 2015
 
+--> Results used in [4], from stats, not read yet.
+
 [6] Matteo Pirotta, Marcello Restelli, Luca Bascetta: Adaptive Step-Size for Policy Gradient Methods. NIPS 2013
+
+--> Safe choice of step size in policy gradient methods (continuous), extension of [3].
 
 [7] Mohammad Ghavamzadeh, Marek Petrik, Yinlam Chow: Safe Policy Improvement by Minimizing Robust Baseline Regret. NIPS 2016
 
