@@ -34,5 +34,8 @@ The goal of the project is to review the model, the theoretical solution/guarant
 
 [7] Mohammad Ghavamzadeh, Marek Petrik, Yinlam Chow: Safe Policy Improvement by Minimizing Robust Baseline Regret. NIPS 2016
 
+--> Model-Based (the others are all model-free) + max min regret
 
 /!\ Check this: https://papers.nips.cc/paper/8032-a-lyapunov-based-approach-to-safe-reinforcement-learning.pdf
+
+--> Constraints on the set of admissible policies
