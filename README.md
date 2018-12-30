@@ -34,5 +34,10 @@ The goal of the project is to review the model, the theoretical solution/guarant
 
 [7] Mohammad Ghavamzadeh, Marek Petrik, Yinlam Chow: Safe Policy Improvement by Minimizing Robust Baseline Regret. NIPS 2016
 
+Contrained MDP Approach:
+
+Previous works by E. Altman on CMPDs
+
+https://arxiv.org/pdf/1705.10528.pdf Constrained Policy Optimization
 
 /!\ Check this: https://papers.nips.cc/paper/8032-a-lyapunov-based-approach-to-safe-reinforcement-learning.pdf
